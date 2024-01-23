@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>calculadora</title>
+</head>
+<body>
+  <main>
+
+    
+    <section class="secao-botoes">
+      <h2>calculadora</h2>
+      <section class="resultado">
+        <div class="resultado-calculo"></div>
+      </section>
+      <button onclick="campoCalculo('7')" class="campo-numero">7</button>
+      <button onclick="campoCalculo('8')" class="campo-numero">8</button>
+      <button onclick="campoCalculo('9')" class="campo-numero">9</button>
+      <button onclick="campoCalculo('+')" class="campo-numero">+</button>
+      <button onclick="campoCalculo('5')" class="campo-numero">5</button>
+      <button onclick="campoCalculo('6')" class="campo-numero">6</button>
+      <button onclick="campoCalculo('1')" class="campo-numero">1</button>
+      <button onclick="campoCalculo('-')" class="campo-numero">-</button>
+      <button onclick="campoCalculo('3')" class="campo-numero">3</button>
+      <button onclick="campoCalculo('0')" class="campo-numero">0</button>
+
+      <button onclick="campoCalculo('4')" class="campo-calculo">4</button>
+      <button onclick="campoCalculo('.')" class="campo-calculo">.</button>
+      <button onclick="campoCalculo('2')" class="campo-calculo">2</button>
+      <button onclick="campoCalculo('x')" class="campo-calculo">x</button>
+      <button onclick="campoCalculo('/')" class="campo-calculo">/</button>
+      <button onclick="limpar()" class="campo-limpo">C</button>
+      <button onclick="campoResultado()" class="campo-calculo calculo">=</button>
+    </section>
+
+  </main>
+  <script src="js/index.js"></script>
+</body>
+</html>
